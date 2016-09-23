@@ -1,0 +1,95 @@
+h2,h3,h4,h5,h6{
+	text-transform: uppercase;
+	color:  #006680;
+	font-family: unad;
+
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	padding-top: 20px;
+	font-weight: normal;
+	text-transform: lowercase
+}
+
+h4{
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+p{
+
+	text-transform: normal;
+	color:  #006680;
+	font-family: unad;
+	padding: 10px 0;
+
+}
+
+.wap{
+	width: 90%;
+	margin: auto;
+}
+
+.bienvenidos{
+margin-top: 50px;
+text-align: center;
+}
+
+.cont{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+
+}
+
+.colx4{
+	width: 24.333%;
+	float: left;
+	padding: 20px 4px;
+	box-sizing: border-box;
+	margin: auto;
+
+
+}
+
+.colx4 img{
+	width: 95%;
+}
+
+.banner{
+	width: 100%;
+	background: #F2B80D;
+	clear: both;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.4s;
+
+}
+.banner:hover{
+	background:   #006680;
+	transition: 0.4s;
+}
+
+.banner h3{
+	text-transform: uppercase;
+	color:  #fff;
+	font-family: unad;
+	font-size: 33px;
+
+}
+.banner a{
+	text-decoration: none;
+	margin-left: 15px;
+	font-weight: bold;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+

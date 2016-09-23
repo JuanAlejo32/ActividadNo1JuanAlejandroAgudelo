@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	background: #F2B80D;
+	height: 144px;
+	position: fixed;
+	z-index : 10;
+}
+
+.ancho{
+	width: 80%;
+	height: 70px;
+	/*background: red; para diferenciar */
+	margin: auto;
+}
+
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue; para diferenciar */
+	float: left;
+	padding-top: 6px; 
+	box-sizing: border-box;
+
+
+/*} Para despues
+.logo p a{
+	color: #fff;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: unad;*/
+}
+
+nav{
+	width: 70%;
+	height: 70px;
+	/*background: olive; para diferenciar */
+	float: left;
+	text-align: right;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+nav ul li {
+	display:inline;
+}
+
+nav ul li a{
+	color: #fff;
+	font-size: 17px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: unad;
+}
+
+nav ul li a:hover{
+	color: #444;
+}
+
+@font-face{
+	font-family: unad;
+	
+	src: url(fuente/FRABK.TTF);
+}
+}
